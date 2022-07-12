@@ -1,6 +1,16 @@
 # React-mini-blog
 혼자 구현해보는 미니 블로그 웹 애플리케이션      
 
+## Day 3
+
+- 컴포넌트의 대략적인 위치 구성과 스타일 밑그림을 생각했다.  
+
+- `header` 요소 안의 타이틀을 클릭하면 인덱스 페이지로 이동하게 `Link` 컴포넌트를 설정했다.
+
+- `Mainpage`에서 글 작성하기를 누르면 `PostWritePage`로 이동하도록 `useNavigate` 훅을 사용했다.
+
+- `PostWritePage`에서 글 제목과 내용을 작성하고 submit하면 글이 등록되도록 form, input, textarea, input submit 구현하는 중
+
 
 ## Day 2  
 

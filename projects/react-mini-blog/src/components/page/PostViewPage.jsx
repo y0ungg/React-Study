@@ -1,5 +1,5 @@
 //글, 댓글, 댓글작성기능
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import CommentList from "../list/CommentList";
 import data from "../../Data";
 

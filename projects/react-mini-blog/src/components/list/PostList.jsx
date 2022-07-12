@@ -1,11 +1,14 @@
 import styled from "styled-components";
 import PostListItem from "./PostListItem";
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 30px;
+    width: 50%;
+    font-size: 15pt;
 `
 
 const PostList = (props) => {
@@ -22,9 +25,8 @@ const PostList = (props) => {
                     />
                 )
             })}
-            
         </Wrapper>
-    )
+        )
 }
 
 export default PostList;
