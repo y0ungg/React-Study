@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
-const Wrapper = styled.div``;
-
-const TitleText = styled.p``;
+const TitleText = styled.div`
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid green;
+    width: 100%;
+`;
 
 const PostListItem = (props) => {
     const { post, onClick } = props;
 
     return (
-        <Wrapper onClick={onClick}>
-            <TitleText>{post.title}</TitleText>
-        </Wrapper>
+        <TitleText onClick={onClick}>{post.title}</TitleText>
     )
 }
 

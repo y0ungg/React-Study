@@ -8,11 +8,12 @@ const Wrapper = styled.div`
   flex-direction: column;
 `;
 
-const CommentList = ({ comments }) => {
+const CommentList = ({ comments, newComment }) => {
 
   return (
     <Wrapper>
       <CommentListItem comments={comments}/>
+      {[...newComment].map((el, idx) => {return (<p key={idx}>{el}</p>)})}
     </Wrapper>
   );
 };
