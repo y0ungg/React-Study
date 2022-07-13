@@ -1,6 +1,14 @@
 # React-mini-blog
 혼자 구현해보는 미니 블로그 웹 애플리케이션      
 
+## Day 4
+
+- `PostViewPage` 컴포넌트에서 새로운 댓글을 `submit`하면 화면에 업데이트 되도록 했다.
+
+- `PostWritePage` 컴포넌트에서 새로운 글을 작성하면 `Mainpage` 컴포넌트와 `PostViewPage` 컴포넌트에도 업데이트 되도록 redux로 상태를 관리하려 한다.
+
+- TODO: dummy data 상태 redux로 관리하기, 이후 서버에서 데이터 받아오기까지 구현하기
+
 ## Day 3
 
 - 컴포넌트의 대략적인 위치 구성과 스타일 밑그림을 생각했다.  

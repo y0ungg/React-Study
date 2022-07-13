@@ -4,7 +4,7 @@ import data from "../../Data";
 const PostWritePage = () => {
   const [title, setTitle] = useState("");
   const [story, setStory] = useState("");
-  const [id, CountId] = useState(7)
+  const [id, CountId] = useState(7);
 
   const handleChangeTitle = (event) => {
     setTitle(event.target.value);
@@ -26,8 +26,7 @@ const PostWritePage = () => {
         'content': '잘보고갑니다'
       }]
     }
-    setDummy([newPost, ...dummy])
-    console.log(dummy)
+    //data에 새 글 추가
   }
 
   return (
